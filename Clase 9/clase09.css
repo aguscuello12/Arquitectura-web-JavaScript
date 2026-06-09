@@ -1,0 +1,68 @@
+body {
+  font-family: Georgia, serif;
+  background: #f0f0f0;
+}
+
+
+header {
+  background: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+}
+header p {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+
+nav.barra {
+  background: #e63946;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+nav.barra a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav.barra a:hover {
+  text-decoration: underline;
+}
+
+
+#titulo-hola {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a1a2e;
+  margin-bottom: 25px;
+  min-height: 2.2rem;
+}
+
+
+.form-label {
+  font-weight: bold;
+}
+
+
+.campo.tiene-error .form-label {
+  color: #dc3545;
+}
+
+
+footer {
+  background: #1a1a2e;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 60px;
+  font-size: 0.85rem;
+}
